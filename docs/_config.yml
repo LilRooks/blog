@@ -23,7 +23,7 @@ url: "https://blog.rooks.dev" # the base hostname & protocol for your site, e.g.
 twitter_username: TechnoMonicaN
 github_username:  LilRooks
 
-goat_counter: "seven-rooks.goatcounter.com"
+goat_counter: "seven-rooks"
 
 # Build settings
 markdown: kramdown
