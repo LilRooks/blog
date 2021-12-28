@@ -16,16 +16,18 @@
 title: Rooks' Temporary Blog
 email: seven@rooks.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Rooks' temporary blog, for all the dumb things I keep doing,
+  Temporary blog, for all the dumb things I keep doing,
   until I have a proper server to host my posts.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TechnoMonicaN
 github_username:  LilRooks
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+remote_theme: LilRooks/low-style-please 
+theme_config:
+  appearance: "light"
 plugins:
   - jekyll-feed
 
