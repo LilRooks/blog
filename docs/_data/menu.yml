@@ -16,5 +16,8 @@ entries:
     entries:
     - title: technology (<a href="archive/technology">posts</a>, <a href="feed/technology.xml">feed</a>)
 
+  - title: browse posts by tag
+    url: tags.html
+
   - title: rss
     url: feed.xml
