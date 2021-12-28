@@ -20,8 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   until I have a proper server to host my posts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.rooks.dev" # the base hostname & protocol for your site, e.g. http://example.com
+favicon: "rook.png"
 twitter_username: TechnoMonicaN
 github_username:  LilRooks
+
+author: Seven
 
 goat_counter: "seven-rooks"
 
@@ -39,6 +42,11 @@ sass:
 
 plugins:
   - jekyll-feed
+
+feed:
+  categories:
+    - technology
+  tags: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
