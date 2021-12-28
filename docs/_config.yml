@@ -18,16 +18,25 @@ email: seven@rooks.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Temporary blog, for all the dumb things I keep doing,
   until I have a proper server to host my posts.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.rooks.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TechnoMonicaN
 github_username:  LilRooks
+
+goat_counter: "seven-rooks.goatcounter.com"
 
 # Build settings
 markdown: kramdown
 remote_theme: LilRooks/low-style-please 
 theme_config:
   appearance: "light"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
 plugins:
   - jekyll-feed
 
