@@ -13,7 +13,7 @@ title: tags
 ## posts organized by tag
 {% for tag in site.tags %}
 {% capture tag_name %}{{ tag | first }}{% endcapture %}
-* **{{ tag_name }}** ([feed](../feed/by_tag/{{ tag_name }}.xml))
+* <span id="{{ tag_name }}">**{{ tag_name }}** ([feed](../feed/by_tag/{{ tag_name }}.xml)) </span>
 {% for post in site.tags[tag_name] %}
   * [{{ post.title }}]({{ post.url }})
 {% endfor %}

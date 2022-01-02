@@ -1,0 +1,6 @@
+baseURL = 'https://blog.rooks.dev/'
+languageCode = 'en-us'
+title = "Rooks' Temporary Blog"
+
+theme = "hugo-bare-min-theme"
+relativeURLS = true
