@@ -1,9 +1,5 @@
 name: github pages
 
-defaults:
-  run:
-    working-directory: hugo
-
 on:
   push:
     branches:
