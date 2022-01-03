@@ -1,6 +1,6 @@
-baseURL = 'https://blog.rooks.dev/'
+baseURL = 'https://lilrooks.github.io'
 languageCode = 'en-us'
 title = "Rooks' Temporary Blog"
 
-theme = "hugo-bare-min-theme"
+theme = "low-style-plz"
 relativeURLS = true

@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ .Content }}
+<ul>
+    <li> <strong> <a href="/about"> about me </a> </strong> </li>
+    <li> <strong> post archive </strong> (<a href="/posts">posts</a>,
+                   <a href="/index.xml">feed</a>)</li>
+    <li> <strong> browse posts by: </strong> </li>
+    <ul>
+        {{ range $taxname, $taxonomy := .Site.Taxonomies }}
+        {{ $base := add ("/" | relLangURL) ($taxname | urlize) }}
+        <li> <strong>
+            <a href="{{ $base }}">{{ $taxname | singularize }} </a>
+        </strong> </li>
+        {{ end }}
+    </ul>
+</ul>
+</ul>
+{{ end }}
