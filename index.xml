@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rooks&#39; Temporary Blog</title>
+    <link>https://blog.rooks.dev/</link>
+    <description>Recent content on Rooks&#39; Temporary Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Dec 2021 09:36:09 -0500</lastBuildDate><atom:link href="https://blog.rooks.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initial Post</title>
+      <link>https://blog.rooks.dev/posts/initial-post/</link>
+      <pubDate>Tue, 28 Dec 2021 09:36:09 -0500</pubDate>
+      
+      <guid>https://blog.rooks.dev/posts/initial-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
