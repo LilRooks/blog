@@ -2,9 +2,18 @@
     {{ partial "head" . }}
     <body>
         {{ partial "header" . }}
+        <h1> {{ .Title }} </h1>
         {{ block "main" . }}
           {{ .Content }}
         {{ end }}
         {{ partial "footer" . }}
+        
+        <script data-goatcounter="https://{{ .Site.Data.no_style_plz.goat.counter }}/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+<noscript>
+  <img src="https://{{ .Site.Data.no_style_plz.goat.counter }}/count?p=/test-img">
+</noscript>
+
     </body>
 </html>
