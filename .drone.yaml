@@ -1,5 +1,9 @@
 kind: pipeline
 name: default
+when:
+  event: [ push ]
+  branch: [ master ]
+
 
 steps:
 - name: build
