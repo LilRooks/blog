@@ -1,0 +1,23 @@
+kind: pipeline
+name: default
+
+steps:
+- name: build
+  image: plugins/hugo
+  settings:
+      validate: true
+      output: public
+      url: https://blog.rooks.dev
+- name: deploy
+  image: appleboy/drone-scp
+  settings:
+    username: seven
+    host:
+      - rooks.dev
+    port:
+      from_secret: ssh_port
+    key:
+      from_secret: ssh_key
+    source: public/*
+    target:
+      from_secret: target_blog
