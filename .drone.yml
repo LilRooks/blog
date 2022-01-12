@@ -7,7 +7,7 @@ when:
 
 steps:
 - name: build
-  image: plugins/hugo
+  image: cbrgm/drone-hugo
   settings:
     validate: true
     output: public
