@@ -9,9 +9,9 @@ steps:
 - name: build
   image: plugins/hugo
   settings:
-      validate: true
-      output: public
-      url: https://blog.rooks.dev
+    validate: true
+    output: public
+    url: https://blog.rooks.dev
 - name: deploy
   image: appleboy/drone-scp
   settings:
