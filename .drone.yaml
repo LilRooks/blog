@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 when:
   event: [ push ]
-  branch: [ master ]
+  branch: [ main ]
 
 
 steps:
