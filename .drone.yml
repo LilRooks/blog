@@ -9,7 +9,7 @@ steps:
 - name: build
   image: cbrgm/drone-hugo
   settings:
-    hugo_version: 0.55
+    hugo_version: "0.90"
     validate: true
     output: public
     url: https://blog.rooks.dev
