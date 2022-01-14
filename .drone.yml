@@ -16,7 +16,8 @@ steps:
 - name: deploy
   image: appleboy/drone-scp
   settings:
-    username: seven
+    username:
+      from_secret: ssh_user
     host:
       from_secret: ssh_host
     port:
