@@ -18,7 +18,7 @@ steps:
   settings:
     username: seven
     host:
-      - rooks.dev
+      from_secret: ssh_host
     port:
       from_secret: ssh_port
     key:
