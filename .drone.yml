@@ -25,5 +25,6 @@ steps:
     key:
       from_secret: ssh_key
     source: public/*
+    rm: true
     target:
       from_secret: target_blog
